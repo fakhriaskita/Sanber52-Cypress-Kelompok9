@@ -9,4 +9,5 @@
  5. Yuliani Ika Fatmawati : View and Update Shopping Cart
  6. Fakhri Askita Fauzan : Proceed to Checkout
 
-
+Cara menjalankan cypress:
+npm run cypress:open
