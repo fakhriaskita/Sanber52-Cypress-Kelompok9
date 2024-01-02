@@ -1,7 +1,7 @@
 describe('Choose Product', () => {
     beforeEach(() => {
         cy.visit('https://magento.softwaretestingboard.com/collections/yoga-new.html')
-        // cy.get('.chakra-heading').should('contatin.text', 'hai, kasirAja')
+        
     })
 
     //Sukses memilih produk karena memilih size dan color
