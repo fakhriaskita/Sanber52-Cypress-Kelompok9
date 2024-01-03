@@ -23,7 +23,7 @@ describe('Choose Product', () => {
         cy.get('.wrapper > .products > :nth-child(1)').click()
         cy.get('#option-label-color-93-item-49').click()
         cy.get('#product-addtocart-button').click()
-        cy.get('#super_attribute\[143\]-error').should('contain.text', 'This is a required field.')
+        cy.get('#super_attribute\[143\]-error').should('contain.text', 'This is a required field')
     })
 
     //Gagal memilih produk karena memilih size dan tidak memilih colosr
@@ -33,6 +33,6 @@ describe('Choose Product', () => {
         cy.get('.wrapper > .products > :nth-child(1)').click()
         cy.get('#option-label-size-143-item-171').click()
         cy.get('#product-addtocart-button').click()
-        cy.get('#super_attribute\[93\]-error').should('contain.text', 'This is a required field.')
+        cy.get('#super_attribute\[93\]-error').should('contain.text', 'This is a required field')
     })
 })
