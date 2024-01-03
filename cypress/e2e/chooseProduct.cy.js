@@ -28,7 +28,7 @@ describe('Choose Product', () => {
 
     //Gagal memilih produk karena memilih size dan tidak memilih colosr
     // ====================================================
-    it.only('Verify Failed Choose Product - Not Choose Color', () => {
+    it('Verify Failed Choose Product - Not Choose Color', () => {
         // cy.visit('https://magento.softwaretestingboard.com/collections/yoga-new.html')
         cy.get('.wrapper > .products > :nth-child(1)').click()
         cy.get('#option-label-size-143-item-171').click()
