@@ -62,6 +62,9 @@ describe('Proceed to Checkout', () => {
                 cy.get('.button').click()
                 cy.wait(3000)
                 cy.get('#billing-address-same-as-shipping-checkmo').click()
+                //Doing Payment - Checkout
+                cy.get('.payment-method-content > :nth-child(4) > div.primary > .action').click()
+                cy.log('Checkout Successfully')
             }
         })
     })
