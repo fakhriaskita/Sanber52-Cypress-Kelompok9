@@ -6,7 +6,7 @@ describe('Choose Product', () => {
 
     //Sukses memilih produk karena memilih size dan color
     // ====================================================
-    it('Verify Success Choose Product', () => {
+    it.only('Verify Success Choose Product', () => {
         // cy.visit('https://magento.softwaretestingboard.com/collections/yoga-new.html')
         cy.get('.wrapper > .products > :nth-child(1)').click()
         cy.get('#option-label-size-143-item-171').click()
